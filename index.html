@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <div id="headDesign"></div>
     <nav id="navParent" class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <div class="container">
@@ -28,9 +29,9 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="input-group mb-3" style="display:inline;">
-                            <input type="text" class="form-control" placeholder="Rechercher Produits"
-                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div id="searchInput" class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Rechercher Produits ..."
+                                aria-label="Rechercher Produits ..." aria-describedby="basic-addon2">
                             <div class="input-group-append">
                                 <span class="input-group-text" id="basic-addon2">search</span>
                             </div>
@@ -38,7 +39,7 @@
                     </div>
                     <div class="col">
                         <form class="d-flex" role="search" style="display:inline;">
-                            <a style="text-decoration:none" href="" class="fa fa-linkedin"></a>
+                            <a style="text-decoration:none" href="" class="fa fa-linkedin selected"></a>
                             <a style="text-decoration:none" href="" class="fa fa-facebook"></a>
                             <a style="text-decoration:none" href="" class="fa fa-instagram"></a>
                             <a style="text-decoration:none" href="" class="fa fa-whatsapp"></a>
@@ -46,20 +47,15 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-8 offset-2">
+                    <div class="col-10">
                         <div class="collapse navbar-collapse" id="navbarScroll">
                             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
                                 style="--bs-scroll-height: 100px;">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Accueil
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
+                                <li style="padding-right: 150px;" class="nav-item disabled">
+                                    <a class="nav-link">Categorie MACHINES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Accueil</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Compagnie</a>
@@ -81,8 +77,66 @@
             </div>
         </div>
     </nav>
-    <div></div>
-    <footer></footer>
+    <div class="body">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="title" style=" text-align: center; line-height: 100px;">SECTEURS D'EMBALLAGE</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <p class="title">NET PAC YOUNES SARL</p>
+                    <p class="subTitle">Siège Social :</p>
+                    <p>36,AV Habib Bourguiba Megrine 2033 Tunisie</p>
+                </div>
+                <div class="col-3">
+                    <p class="title">HEURES DE TRAVAIL</p>
+                    <p>Lundi - Vendredi</p>
+                    <p>08:00H - 18:00H</p>
+                    <p>Samedi 08:00H - 13:00H</p>
+                    <p class="title">Contact entreprise</p>
+                    <p>T +216 71 433 746</p>
+                    <p>T +216 71 433 746</p>
+                    <p>T +216 71 433 746</p>
+                </div>
+                <div class="col-3">
+                    <p class="title">Machine d'emballage</p>
+                    <p>Emballage étirable</p>
+                    <p>Machines d'emballage sous film retractable</p>
+                    <p>Machines d'emballage sous film retractable</p>
+                    <p>Machines d'emballage sous film retractable</p>
+                </div>
+                <div class="col-3">
+                    <p class="title">NET PAC YOUNES SARL</p>
+                    <p class="subTitle">Siège Social :</p>
+                    <p>36,AV Habib Bourguiba Megrine 2033 Tunisie</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="./js/bootstrapJs/js/bootstrap.bundle.js"></script>
 </body>
 

@@ -9,6 +9,7 @@
     width: 50px;
     text-align: center;
     margin: 5px 2px;
+    color: gray;
 }
 
 /* Styles for wrapping the search box */
@@ -34,4 +35,37 @@
     text-align: center;
     pointer-events: none;
     color: #aaa;
+}
+
+#searchInput {
+    padding-top: 17px;
+}
+
+#headDesign {
+    padding: 45px;
+    background: linear-gradient(to right, #2b14ff, #7b06b1, #f00d0d);
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+li {
+    padding-left: 20px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.subTitle {
+    font-weight: 750;
+}
+
+footer{
+    background-color: #f54040b2;
 }

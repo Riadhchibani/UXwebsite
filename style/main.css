@@ -60,12 +60,54 @@ li {
 
 .title {
     font-weight: bold;
+    font-size: 12px;
+}
+
+.textFooter {
+    font-size: 12px;
 }
 
 .subTitle {
     font-weight: 750;
+    font-size: 13px;
 }
 
-footer{
+.titleFooter {
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+footer {
     background-color: #ffffffb2;
+}
+
+/* Container holding the image and the text */
+.topImage {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 54%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+}
+
+p#imageTitle {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+p#imageContent {
+    font-size: 14px;
+    width: 425px;
+}
+
+#btn-show {
+    border-radius: 12px;
+    margin-block: 33px;
 }

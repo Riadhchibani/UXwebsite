@@ -111,3 +111,18 @@ p#imageContent {
     border-radius: 12px;
     margin-block: 33px;
 }
+
+a#spec{
+    color: gray;
+}
+
+table{
+    margin: 2%;
+}
+
+td{
+    width: 28%;
+}
+.imgfif{
+    width: 89%;
+}

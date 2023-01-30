@@ -112,17 +112,145 @@ p#imageContent {
     margin-block: 33px;
 }
 
-a#spec{
+a#spec {
     color: gray;
 }
 
-table{
+table {
     margin: 2%;
 }
 
-td{
+td {
     width: 28%;
 }
-.imgfif{
+
+.imgfif {
     width: 89%;
+}
+
+#btnSearch {
+    background: linear-gradient(to right, #2b14ff, #7b06b1);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+}
+
+#inputSearch {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+/* 
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+} */
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #2b14ff00;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+/* .openbtn:hover {
+    background-color: #444;
+} */
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+
+#main {
+    visibility: hidden;
+}
+
+#navParentSM {
+    visibility: hidden;
+    display: none;
+}
+
+@media (max-width: 996px) {
+    #main {
+        visibility: visible;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+
+    #navParent {
+        visibility: hidden;
+        display: none;
+    }
+
+    #navParentSM {
+        visibility: visible;
+        display: contents;
+    }
+
+    #btn-show {
+        margin-block: 5px;
+    }
+
+    p#imageTitle {
+        font-size: 27px;
+    }
+
+    .centered {
+        left: 39%;
+    }
+}
+
+#space {
+    padding: 12px;
+}
+.desFooter{
+    background-color: rgba(151, 151, 151, 0.479);
+    padding: 14px;
 }

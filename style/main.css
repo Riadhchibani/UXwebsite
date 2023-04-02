@@ -245,12 +245,39 @@ td {
     .centered {
         left: 39%;
     }
+
+    p#imageContent {
+        font-size: 11px;
+        width: 288px;
+    }
+
+    #btn-show {
+        display: none;
+    }
 }
 
 #space {
     padding: 12px;
 }
-.desFooter{
+
+.desFooter {
     background-color: rgba(151, 151, 151, 0.479);
     padding: 14px;
+}
+
+.carousel .item {
+    height: 300px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+p#info{
+    font-size: 14px;
+}
+#height-space{
+    padding: 40px;
 }

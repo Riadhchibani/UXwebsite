@@ -8,14 +8,6 @@ function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
 }
-$(document).ready(function () {
-  $("#owl-demo").owlCarousel({
-    autoPlay: 3000, //Set AutoPlay to 3 seconds
-    items: 4,
-    itemsDesktop: [1199, 3],
-    itemsDesktopSmall: [979, 3]
-  });
-});
 
 //stepper :
 
@@ -33,3 +25,16 @@ function stepFunction(event) {
     document.getElementById("specbtn").style.color = "red";
   }
 }
+
+
+$(document).ready(function () {
+  var owl = $('.owl-carousel');
+  owl.owlCarousel({
+    items: 4,
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 1000,
+    autoplayHoverPause: true
+  });
+});

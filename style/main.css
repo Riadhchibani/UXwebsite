@@ -235,7 +235,7 @@ td {
     }
 
     p#imageTitle {
-        font-size: 27px;
+        font-size: 15px;
     }
 
     .centered {
@@ -243,8 +243,8 @@ td {
     }
 
     p#imageContent {
-        font-size: 11px;
-        width: 288px;
+        font-size: 9px;
+        width: 255px;
     }
 
     #btn-show {
@@ -290,6 +290,11 @@ p#info {
     width: 100%;
     height: auto;
 }
-#titleMachine{
+
+#titleMachine {
     background-color: red;
+}
+
+.brandImage {
+    width: 70%;
 }

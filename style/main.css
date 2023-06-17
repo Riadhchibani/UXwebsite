@@ -298,3 +298,73 @@ p#info {
 .brandImage {
     width: 70%;
 }
+
+.text h1 {
+    margin: 25px;
+    margin-left: 650px;
+    margin-top: 300px;
+    font-weight: bold;
+}
+
+
+.type {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+
+.box {
+    flex: 1 1 calc(20% - 20px);
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-right: 20px;
+    height: 260px;
+    margin-top: 12px;
+    margin-left: 4px;
+
+}
+
+.box:last-child {
+    margin-right: 0;
+}
+
+.box img {
+    width: 250px;
+    height: 200px;
+    transform: scale(0.7);
+}
+
+.box h2 {
+    z-index: 999;
+    margin: 0;
+}
+
+.box h2:first-child {
+    position: relative;
+    top: -20px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    box-sizing: border-box;
+}
+
+.box h2:nth-child(2) {
+    font-size: 15px;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+.produits {
+    background-color: #f1f1f1;
+}

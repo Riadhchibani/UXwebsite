@@ -331,9 +331,9 @@ p#info {
 }
 
 .box img {
-    width: 250px;
-    height: 200px;
-    transform: scale(0.7);
+    width: 150px;
+    height: 150px;
+    transform: scale(0.9);
 }
 
 .box h2 {
@@ -357,10 +357,6 @@ p#info {
     font-size: 15px;
     color: blue;
 }
-
-
-
-
 
 
 

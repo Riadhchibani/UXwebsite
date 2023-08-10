@@ -290,7 +290,9 @@ p#info {
     width: 100%;
     height: auto;
 }
-
+#titleMachineee {
+    background-color:#f1f1f1;
+}
 #titleMachine {
     background-color: red;
 }
@@ -363,4 +365,7 @@ p#info {
 
 .produits {
     background-color: #f1f1f1;
+}
+#li{
+    color: #f00d0d;
 }
